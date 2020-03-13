@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>  
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--- responsive -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Playfair+Display:400,900|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <script type="text/javascript" src="../js/gallery.js"> </script>
+        <script type="text/javascript" src="../js/refscript.js"> </script>
+        <title> Shashwat Goel </title>
+
+    </head>
+    <body onload="initgall(); visit();">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">            
+            <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><h4 class="nav-brand-text">SG.</h4></a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+           </button>
+           </div>
+           <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-auto">
+                <a class="nav-link" data-value="experience" href="./references.html"> References </a>        </li>  
+            <li class="nav-item nav-last ml-auto"> 
+               <a class="nav-link " data-value="contact" href="./contact.html">Contact</a>         </li>   
+           </ul> 
+           </div>
+           </div></nav>
+           <div class="bg1">
+           <div class="home-text">
+               <img class="CircleWrap" src="../img/rszself.jpg">
+               <h1 class="hi-text"> Hi, I'm Shash</h1>
+               <p class="intro-text">
+               <br>
+               Algorithmist, Idea-hamster. I am fascinated by computational <br> solutions
+               where they're least expected.
+                <br><br>
+               Interested in the startup space, math and research.<br>
+               Currently studying at <a class="insti-link" href="https://www.iiit.ac.in/">IIIT Hyderabad</a>
+               </p>
+            </div>
+            </div>
+            <div class="bg2">
+
+                <h1 class="sec2-head"> "CURIOUS?"</h1>
+                <h4 class="sec2-caption"> Keep clicking on the image.</h4>
+                <img class="about-img" id="aboutimg" onclick=changepic()>
+                <h1 class="caption-head" id="captionhead"></h1>
+                <p class="img-text" id="imgtext">
+                    
+                </p>
+                <div class="footerv">
+                    <span>Visits: <span class="visitcnt" id="visitcnt"></span></span>
+               <button class="top-button" onclick=ScrollToTop()> &uarr; Top </button>
+               </div>
+            </div>
+            <script src="../js/navbar.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,545 @@
+.bg1 {
+    height: 100vh;
+    background-color:rgba(175,175,175,.175);
+  }
+  .bg2 {
+    height: 100vh;
+    background-color: #fff;
+    align: center;
+    overflow: hidden
+  }
+.navbar{ width: 100vw; z-index: 1; background:transparent;}
+
+@media only screen and (min-width: 1001px) {
+.navbar-collapse.collapse.in{
+    display: none!important;
+}
+}
+.nav-link , .navbar-brand{ color: #111; cursor: pointer;}
+
+.navbar-brand {padding-left: 15%;}
+
+.nav-brand-text { font-weight: 900;
+    font-size: 3.4vh; font-family: 'Playfair Display', serif;}
+
+.nav-link{ font-weight: 300;
+    font-size: 1.6vh !important; font-family: 'Lato', sans-serif !important; margin-right: 1em !important; transition:all .25s}
+.nav-item{ transition: all .25s; background-color: transparent;}
+.nav-item:hover{color: #AAA}
+.nav-last{}
+.nav-link:hover{color: #FFF;}
+.navbar-brand:hover{color: #111}
+.navbar-collapse{flex-basis: 100%; flex-grow: 1; align-items: center;}
+.icon-bar{ display: block; margin-bottom: 0.5vh; height: 0.2vh; width: 5vw; background-color: #555;}
+
+.navbar-toggler{height: 4vh;  border-color: #111 !important;}
+
+
+.fixed-top{
+
+}
+
+@media only screen and (min-width: 1001px) {
+.home-text{
+    font-weight: 300;
+    font-size: 2.4vh;
+    font-family: 'Lato', sans-serif;
+    padding-top: 6%;
+    padding-left: 22%;
+    padding-right:10%;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-text{
+        font-weight: 300;
+        font-size: 2.4vh;
+        font-family: 'Lato', sans-serif;
+        padding-top: 6%;
+        padding-left: 12%;
+        padding-right:10%;
+    }
+    }
+
+@media only screen and (min-width: 1001px) {
+.hi-text{
+    font-weight: 900;
+    font-size: 9vh; font-family: 'Playfair Display', serif;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+.hi-text{
+    padding-top: 10vh;
+    font-weight: 400;
+    font-size: 6vh; font-family: 'Playfair Display', serif;
+    }
+}
+
+.insti-link{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #111
+}
+
+.insti-link:hover{
+    color: #AAA;
+    transition: all .25s;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1001px)
+{
+.CircleWrap{
+    float: right;
+    height:87vh;
+    width: 30vw;
+    padding-right:15%;
+    padding-bottom:0;
+}
+}
+
+@media only screen and (max-width: 1000px)
+{
+.CircleWrap{
+    float: right;
+    margin-top: 10vh;
+    height:67vh;
+    width: 35vw;
+    padding-bottom:0;
+}
+}
+
+.intro-text
+{
+    line-height: 4.5vh;
+}
+
+.sec2-head, .sec2-caption
+{
+    padding-left: 8vw;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Lato', sans-serif;
+}
+.sec2-head{
+    margin-top: 15vh; font-weight: 700;
+}
+.sec2-head::before
+{
+    content: '';
+    display: inline-block;
+    width: 3vw;
+    height: 0.3vh;
+    background: #555;
+    vertical-align: top;
+    margin-top: 1vh;
+    margin-right: 0.5vw;
+}
+.sec2-caption{
+    padding-left: 12vw;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 1001px)
+{
+.about-img
+{
+    height: 50vh;
+    width: 40vw;
+    float: right;
+    margin-top: 10vh;
+    margin-right: 10vw;
+    padding-left: 5vw;
+}
+}
+@media only screen and (max-width: 1000px)
+{
+.about-img
+{
+    height: 30vh;
+    width: 50vw;
+    float: right;
+    margin-top: 10vh;
+    margin-right: 2vw;
+}
+}
+
+@media only screen and (min-width: 1001px)
+{
+.caption-head
+{
+    margin-left: 20vw;
+    margin-top: 23vh;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 3.3vh;
+}
+}
+@media only screen and (max-width: 1000px)
+{
+.caption-head
+{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 3.3vh;
+}
+}
+@media only screen and (min-width: 1001px)
+{
+.img-text
+{
+    font-style: italic;
+    margin-top: 2vh;
+    margin-left: 20vw;
+    padding-right: 2vw;
+    font-size: 2.8vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+}
+@media only screen and (max-width: 1000px)
+{
+.img-text
+{
+    font-style: italic;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 1vw;
+    font-size: 2.8vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+}
+.top-button {
+    border-color: #555;
+    background-color: transparent;
+    float: right;
+    margin-right: 5vw;
+    margin-bottom: 1vh;
+    font-size: 2vh;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+@media only screen and (max-height:850px)
+{
+.footerv{
+    margin-left: 4vw;
+    margin-top: 23vh;
+    font-size: 2.8vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+}
+@media only screen and (min-height:851px)
+{
+.footerv{
+    margin-left: 4vw;
+    margin-top: 32vh;
+    font-size: 2.8vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+}
+
+@media only screen and (min-height:1201px)
+{
+.footerv{
+    margin-left: 4vw;
+    margin-top: 12vh;
+    font-size: 2.8vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+}
+.visitcnt
+{
+    display: inline;
+}
+
+.contact-body
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../IMG/contact-bg.png");
+}
+
+@media only screen and (min-width:1001px)
+{
+.social-logos
+{
+    position: fixed;
+    bottom: 30vh;
+    width: 100%;
+    right: 30vw;
+    left: 30vw
+}
+}
+
+@media only screen and (max-width:1000px)
+{
+.social-logos
+{
+    position: fixed;
+    bottom: 40vh;
+    right: 20vw;
+    left: 20vw
+}
+}
+
+@media only screen and (min-width:1367px)
+{
+.logo
+{
+    height: 5vw;
+    width: 5vw;
+    margin-left: 1vw;
+}
+}
+
+.logo:hover
+{
+    transition: 0.25s;
+    opacity: 0.5;
+}
+@media only screen and (max-width:1366px)
+{
+.logo
+{
+    height: 10vw;
+    width: 10vw;
+    margin-left: 1vw;
+}
+}
+
+@media only screen and (min-width: 1001px) {
+    .contact-heading{
+        text-align: center;
+        position:fixed;
+        top: 10vh;
+        left: 10vw;
+        right: 10vw;
+        font-weight: 700;
+        font-size: 8vh; font-family: 'Lato', sans-serif;
+    }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+    .contact-heading{
+        text-align: center;
+        position:fixed;
+        top: 10vh;
+        left: 10vw;
+        right: 10vw;
+        font-weight: 700;
+        font-size: 6vh; font-family: 'Lato', sans-serif;
+        }
+    }
+
+    @media only screen and (min-width: 1367px) {
+        .contact-text{
+            text-align: justify;
+            position:fixed;
+            top: 27vh;
+            left: 20vw;
+            right: 20vw;
+            font-weight: 300;
+            font-size: 4vh; font-family: 'Lato', sans-serif;
+        }
+        }
+        
+        @media only screen and (max-width: 1366px) {
+        .contact-text{
+            text-align: justify;
+            position:fixed;
+            top: 25vh;
+            left: 10vw;
+            right: 10vw;
+            font-weight: 300;
+            font-size: 2.5vh; font-family: 'Lato', sans-serif;
+            }
+        }
+
+@media only screen and (min-width:1367px)
+{
+.div-table
+{
+    width: 100%;
+    position: fixed;
+    bottom: 2vh;
+    margin-left: 35vw;
+}
+}
+@media only screen and (min-width:1001px) and (max-width:1366px)
+{
+.div-table
+{
+    width: 100%;
+    position: fixed;
+    bottom: 5vh;
+    margin-left: 20vw;
+}
+}
+@media only screen and (max-width:1000px)
+{
+.div-table
+{
+    width: 100%;
+    position: fixed;
+    bottom: 5vh;
+    margin-left: 10vw;
+}
+}
+.mail-table tr, th, td
+{
+    border: solid;
+    padding: 0.5vw;
+    border-width: 0.2vw;
+    border-color: #555;
+}
+
+@media only screen and (min-width:1367px)
+{
+.mail-table{
+    font-weight: 300;
+    font-size: 2vh; font-family: 'Lato', sans-serif;
+}
+}
+
+@media only screen and (max-width:1000px)
+{
+    .mail-table{
+        font-weight: 300;
+    font-size: 3.5vw; font-family: 'Lato', sans-serif;
+    }
+}
+@media only screen and (min-width:1001px) and (max-width:1366px)
+{
+    .mail-table
+    {
+        font-weight: 300;
+    font-size: 3vw; font-family: 'Lato', sans-serif;
+    }
+}
+
+
+#resp_skill {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #resp_level {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #resp_comments {
+    margin-bottom: 2%;
+  }
+  
+  .skill-table
+  {
+      background-color: #FFF;
+      position: relative;
+      top: 5vh;
+  }
+  .skill-table table {
+      table-layout: fixed;
+      width: 100%;   
+  }
+  
+  .skill-table th {
+    font-weight: 700;
+    font-size: 2vh; font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  
+  .skill-table td {
+       word-wrap: break-word;   
+      /* play with text styling so it doesn't overflow and you don't have to scroll too much. I couldn't
+        figure this so let me know if you do */
+      overflow-wrap: break-word;
+       word-break: break-all; 
+      text-overflow: ellipsis; 
+      font-weight: 300;
+    font-size: 2vh; font-family: 'Lato', sans-serif;
+      /* overflow-wrap: normal; 
+  
+      white-space: nowrap;
+      */
+  }
+  
+  .refform{
+    font-weight: 300;
+    font-size: 2vh; font-family: 'Lato', sans-serif;
+      position: relative;
+      top: 5vh;
+  }
+
+  @media only screen and (min-width:1001px) and (max-width:1366px)
+{
+    .refform
+    {
+  font-weight: 300;
+    font-size: 2vw; font-family: 'Lato', sans-serif;
+    }
+}
+  @media (max-width:767px) {
+  
+      .refform {
+        margin: 20% 2% 2% ;
+      }
+  
+       #resp_skill {
+        margin-bottom: 2%;
+       }
+  
+       #resp_level {
+        margin-top: 2%;
+       }
+  
+  }
+  
+  @media (max-width:768px) and (min-width: 500px) {
+      .refform {
+        margin: 8% 2% 2% ;
+      }
+  }
+  
+  @media (min-width:768px) {
+      .refform {
+        margin-left: 30%;
+        margin-right: 30%;  
+        margin-top: 4%;
+      }
+  
+      button {
+        margin-bottom: 2%;
+      }
+  }
+  
+  @media (min-width:992px) {
+      .refform {
+        margin-left: 30%;
+        margin-right: 30%;  
+        margin-top: 2%;
+      }
+  
+  }
+  
+  @media (min-width:1200px) {
+      .refform {
+        margin-left: 30%;
+        margin-right: 30%;  
+      }
+  
+  }
+  
+.refresh_text
+{
+    font-weight: 300;
+    font-size: 1.5vh; font-family: 'Lato', sans-serif;
+}
